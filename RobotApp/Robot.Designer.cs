@@ -171,9 +171,9 @@ namespace RobotApp
             // 
             this.lb_operation.FormattingEnabled = true;
             this.lb_operation.ItemHeight = 23;
-            this.lb_operation.Location = new System.Drawing.Point(23, 254);
+            this.lb_operation.Location = new System.Drawing.Point(23, 231);
             this.lb_operation.Name = "lb_operation";
-            this.lb_operation.Size = new System.Drawing.Size(250, 349);
+            this.lb_operation.Size = new System.Drawing.Size(250, 372);
             this.lb_operation.TabIndex = 3;
             // 
             // comboBox1
@@ -187,21 +187,27 @@ namespace RobotApp
             // 
             // btn_stop
             // 
-            this.btn_stop.Location = new System.Drawing.Point(159, 176);
+            this.btn_stop.BackColor = System.Drawing.Color.Red;
+            this.btn_stop.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_stop.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_stop.Location = new System.Drawing.Point(159, 150);
             this.btn_stop.Name = "btn_stop";
-            this.btn_stop.Size = new System.Drawing.Size(112, 34);
+            this.btn_stop.Size = new System.Drawing.Size(112, 51);
             this.btn_stop.TabIndex = 1;
-            this.btn_stop.Text = "button2";
-            this.btn_stop.UseVisualStyleBackColor = true;
+            this.btn_stop.Text = "停止";
+            this.btn_stop.UseVisualStyleBackColor = false;
             // 
             // btn_start
             // 
-            this.btn_start.Location = new System.Drawing.Point(23, 176);
+            this.btn_start.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btn_start.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_start.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_start.Location = new System.Drawing.Point(23, 150);
             this.btn_start.Name = "btn_start";
-            this.btn_start.Size = new System.Drawing.Size(112, 34);
+            this.btn_start.Size = new System.Drawing.Size(116, 51);
             this.btn_start.TabIndex = 0;
-            this.btn_start.Text = "button1";
-            this.btn_start.UseVisualStyleBackColor = true;
+            this.btn_start.Text = "開始";
+            this.btn_start.UseVisualStyleBackColor = false;
             // 
             // Robot
             // 
