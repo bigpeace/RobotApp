@@ -47,3 +47,4 @@ C:\Source\RobotApp\RobotApp\obj\Debug\netcoreapp3.1\RobotApp.csproj.CoreCompileI
 C:\Source\RobotApp\RobotApp\obj\Debug\netcoreapp3.1\RobotApp.dll
 C:\Source\RobotApp\RobotApp\obj\Debug\netcoreapp3.1\RobotApp.pdb
 C:\Source\RobotApp\RobotApp\obj\Debug\netcoreapp3.1\RobotApp.genruntimeconfig.cache
+C:\Source\RobotApp\RobotApp\obj\Debug\netcoreapp3.1\RobotApp.csproj.AssemblyReference.cache
